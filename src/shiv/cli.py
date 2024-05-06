@@ -136,6 +136,7 @@ def main(
             "Warning! You have overridden the default build-id behavior, "
             "executables created by shiv must have unique build IDs or unexpected behavior could occur.",
             fg="yellow",
+            err=True,
         )
 
     sources: List[Path] = []
